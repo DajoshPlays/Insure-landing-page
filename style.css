@@ -23,7 +23,6 @@ html{
     width: 90vw;
     margin: auto;
     padding: 2rem ;
-    /* height: 20vh; */
 }
 .navlinks{
     display: none;
@@ -32,11 +31,18 @@ html{
     min-height: 100vh;
     background-color: var(--ntrl-1);
     text-align: center;
-    width: 100%;
 }
 .mobile-nav{
-    display: none;
-    
+    /* display: none; */
+    position: fixed;
+    top: 10%;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transform: translateY(-100%);
+    opacity: 0; 
+    visibility: hidden; 
+    transition: transform 0.5s ease, opacity 0.5s ease, visibility 0.5s ease;
 }
 .links-cont{
     padding: 2rem 0;
@@ -68,6 +74,16 @@ html{
 .nav-bars{
     cursor: pointer;
 }
+
+
+/* Visible state for mobile navigation */
+.mobile-nav.nav-active {
+    transform: translateY(0); 
+    opacity: 1; 
+    visibility: visible; 
+}
+
+
 
 
 /* hero stylings */
@@ -309,6 +325,9 @@ html{
         display: flex;
         gap: 20px;
         align-items: center;
+    }
+    .mobile-nav{
+        display: none;
     }
     .n-links a{
         text-transform: uppercase;
