@@ -59,7 +59,7 @@ navBars.addEventListener('click', () => {
 ## Author
 
 - Website - [Adefila Joshua](https://www.your-site.com)
-- Frontend Mentor - [@dajoshplays](https://www.frontendmentor.io/profile/DajoshPlays)
-- Twitter - [@JoshuaAdefila1](https://x.com/JoshuaAdefila1)
+- Frontend Mentor - [https://www.frontendmentor.io/profile/DajoshPlays]
+- Twitter - [https://x.com/JoshuaAdefila1]
 
 ## Acknowledgments
