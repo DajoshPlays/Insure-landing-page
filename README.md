@@ -28,8 +28,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/DajoshPlays/Insure-landing-page)
-- Live Site URL: [Add live site URL here](https://insure-landing-page-beta-five.vercel.app/)
+- Solution URL: [https://github.com/DajoshPlays/Insure-landing-page]
+- Live Site URL: [https://insure-landing-page-beta-five.vercel.app/]
 
 ### Built with
 
